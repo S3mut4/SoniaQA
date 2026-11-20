@@ -1,0 +1,19 @@
+{
+  "name": "soniaqa",
+  "version": "1.0.0",
+  "description": "SoniaQA: a QA working method for Claude Code - skill, exploration agent, standard and a Playwright + TypeScript workspace",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "typecheck": "tsc --noEmit",
+    "prettier:format": "prettier --write \"{tests,config,docs}/**/*.{ts,json,md}\"",
+    "prettier:check": "prettier --check \"{tests,config,docs}/**/*.{ts,json,md}\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.10",
+    "prettier": "^3.10.1",
+    "typescript": "^7.0.2"
+  }
+}
