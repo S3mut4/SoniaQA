@@ -4,7 +4,7 @@ A QA working method packaged for [Claude Code](https://code.claude.com/docs/en/o
 
 SoniaQA makes the AI work like a careful QA engineer: find the spec first, explore before writing code, give every expected result a source, report only bugs it actually reproduced, and never make a test pass by weakening it.
 
-Built by Daniel during the QA Automation course at Tallinn Learning, on top of more than 20 years as a database administrator.
+Built by Daniel Castells Valdehita during the QA Automation course at Tallinn Learning, on top of more than 20 years as a database administrator.
 
 ## Why
 
@@ -68,3 +68,7 @@ From the report, Claude wrote 15 Playwright tests (7 checks of working behaviour
 | `npm run typecheck` | TypeScript check |
 | `npm run prettier:check` | Formatting check |
 | `npm run prettier:format` | Format the code |
+
+## License
+
+[MIT](LICENSE) © 2026 Daniel Castells Valdehita

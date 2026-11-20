@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "SoniaQA: a QA working method for Claude Code - skill, exploration agent, standard and a Playwright + TypeScript workspace",
   "private": true,
+  "author": "Daniel Castells Valdehita",
+  "license": "MIT",
   "scripts": {
     "test": "playwright test",
     "typecheck": "tsc --noEmit",
